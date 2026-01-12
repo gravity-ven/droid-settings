@@ -1,0 +1,867 @@
+2025-11-26T00:29:30.355Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-26T00:29:30.355Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-26T00:29:30.355Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-26T00:29:30.355Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-26T00:29:30.355Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-26T00:29:30.361Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-26T00:29:30.363Z [DEBUG] Total LSP servers loaded: 0
+2025-11-26T00:29:30.365Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-26T00:29:30.365Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-26T00:29:30.365Z [DEBUG] LSP server manager initialized successfully
+2025-11-26T00:29:30.365Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-26T00:29:30.368Z [DEBUG] Loading skills from directories: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/spartan/.claude/skills, project=/Users/spartan/Downloads/spartan_labs/website/.claude/skills
+2025-11-26T00:29:30.368Z [DEBUG] >>>>> getPluginSkills CALLED <<<<<
+2025-11-26T00:29:30.369Z [DEBUG] Passes: No cache, fetching eligibility
+2025-11-26T00:29:30.476Z [DEBUG] Creating shell snapshot for zsh (/bin/zsh)
+2025-11-26T00:29:30.476Z [DEBUG] Looking for shell config file: /Users/spartan/.zshrc
+2025-11-26T00:29:30.476Z [DEBUG] Snapshots directory: /Users/spartan/.claude/shell-snapshots
+2025-11-26T00:29:30.476Z [DEBUG] Creating snapshot at: /Users/spartan/.claude/shell-snapshots/snapshot-zsh-1764116970476-y7edpp.sh
+2025-11-26T00:29:30.476Z [DEBUG] Shell binary exists: true
+2025-11-26T00:29:30.476Z [DEBUG] Execution timeout: 10000ms
+2025-11-26T00:29:30.477Z [DEBUG] Writing to temp file: /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764116970477
+2025-11-26T00:29:30.477Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-26T00:29:30.477Z [DEBUG] Renaming /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764116970477 to /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json
+2025-11-26T00:29:30.477Z [DEBUG] File /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json written atomically
+2025-11-26T00:29:30.480Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-11-26T00:29:30.480Z [DEBUG] Total plugin skills loaded: 0
+2025-11-26T00:29:30.480Z [DEBUG] Total plugin commands loaded: 0
+2025-11-26T00:29:30.480Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-11-26T00:29:30.481Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-11-26T00:29:30.482Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills
+2025-11-26T00:29:30.500Z [ERROR] Error: Error: NON-FATAL: Lock acquisition failed for /Users/spartan/.local/share/claude/versions/2.0.53 (expected in multi-process scenarios)
+    at nL0 (/$bunfs/root/claude:2656:1622)
+    at F6A (/$bunfs/root/claude:2656:1300)
+    at processTicksAndRejections (native:7:39)
+2025-11-26T00:29:30.507Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116970507
+2025-11-26T00:29:30.507Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:30.507Z [DEBUG] Temp file written successfully, size: 46425 bytes
+2025-11-26T00:29:30.507Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:30.507Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116970507 to /Users/spartan/.claude.json
+2025-11-26T00:29:30.508Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:30.512Z [DEBUG] Git remote URL: https://github.com/gravity-ven/Spartan_Labs
+2025-11-26T00:29:30.512Z [DEBUG] Parsed repository: gravity-ven/Spartan_Labs from https://github.com/gravity-ven/Spartan_Labs
+2025-11-26T00:29:30.512Z [DEBUG] Parsed repository: gravity-ven/Spartan_Labs from URL: https://github.com/gravity-ven/Spartan_Labs
+2025-11-26T00:29:30.512Z [DEBUG] Path /Users/spartan/Downloads/spartan_labs/website already tracked for repo gravity-ven/spartan_labs
+2025-11-26T00:29:30.515Z [DEBUG] Total plugin agents loaded: 0
+2025-11-26T00:29:30.547Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116970547
+2025-11-26T00:29:30.547Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:30.548Z [DEBUG] Temp file written successfully, size: 46425 bytes
+2025-11-26T00:29:30.548Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:30.548Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116970547 to /Users/spartan/.claude.json
+2025-11-26T00:29:30.548Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:30.558Z [DEBUG] Shell snapshot created successfully (2754 bytes)
+2025-11-26T00:29:30.630Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116970630
+2025-11-26T00:29:30.630Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:30.631Z [DEBUG] Temp file written successfully, size: 46425 bytes
+2025-11-26T00:29:30.631Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:30.631Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116970630 to /Users/spartan/.claude.json
+2025-11-26T00:29:30.631Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:30.633Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116970633
+2025-11-26T00:29:30.633Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:30.633Z [DEBUG] Temp file written successfully, size: 46425 bytes
+2025-11-26T00:29:30.633Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:30.633Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116970633 to /Users/spartan/.claude.json
+2025-11-26T00:29:30.633Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:30.805Z [DEBUG] Metrics opt-out API response: enabled=true, vcsLinking=false
+2025-11-26T00:29:30.859Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116970859
+2025-11-26T00:29:30.859Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:30.859Z [DEBUG] Temp file written successfully, size: 46607 bytes
+2025-11-26T00:29:30.859Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:30.859Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116970859 to /Users/spartan/.claude.json
+2025-11-26T00:29:30.859Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:30.859Z [DEBUG] Passes eligibility cached for org b2cc798f-0978-4200-a33c-2d4d2a070199: false
+2025-11-26T00:29:31.049Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/Users/spartan/.local/share/claude/versions/2.0.53)
+2025-11-26T00:29:31.687Z [DEBUG] Passes: Using fresh cached eligibility data
+2025-11-26T00:29:31.693Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116971693
+2025-11-26T00:29:31.693Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:31.693Z [DEBUG] Temp file written successfully, size: 46607 bytes
+2025-11-26T00:29:31.693Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:31.693Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116971693 to /Users/spartan/.claude.json
+2025-11-26T00:29:31.693Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:31.697Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2025-11-26T00:29:31.697Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T00:29:31.697Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2025-11-26T00:29:31.729Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116971729
+2025-11-26T00:29:31.729Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:31.729Z [DEBUG] Temp file written successfully, size: 46502 bytes
+2025-11-26T00:29:31.729Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:31.729Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116971729 to /Users/spartan/.claude.json
+2025-11-26T00:29:31.729Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:31.730Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116971730
+2025-11-26T00:29:31.730Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:31.730Z [DEBUG] Temp file written successfully, size: 46502 bytes
+2025-11-26T00:29:31.730Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:31.730Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116971730 to /Users/spartan/.claude.json
+2025-11-26T00:29:31.730Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:31.732Z [DEBUG] performStartupChecks called
+2025-11-26T00:29:31.732Z [DEBUG] Starting background plugin installations
+2025-11-26T00:29:31.732Z [DEBUG] performBackgroundPluginInstallations called
+2025-11-26T00:29:31.737Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2025-11-26T00:29:31.739Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-26T00:29:31.739Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-26T00:29:31.740Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116971740
+2025-11-26T00:29:31.740Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:31.740Z [DEBUG] Temp file written successfully, size: 46607 bytes
+2025-11-26T00:29:31.740Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:31.740Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116971740 to /Users/spartan/.claude.json
+2025-11-26T00:29:31.740Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:31.742Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2025-11-26T00:29:31.744Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2025-11-26T00:29:31.747Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2025-11-26T00:29:31.747Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T00:29:31.747Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2025-11-26T00:29:31.750Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2025-11-26T00:29:31.750Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T00:29:31.750Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2025-11-26T00:29:31.763Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116971763
+2025-11-26T00:29:31.763Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:31.763Z [DEBUG] Temp file written successfully, size: 46607 bytes
+2025-11-26T00:29:31.763Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:31.763Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116971763 to /Users/spartan/.claude.json
+2025-11-26T00:29:31.763Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:32.314Z [DEBUG] Checking for native installer update to version 2.0.53
+2025-11-26T00:29:33.628Z [DEBUG] Stream started - received first chunk
+2025-11-26T00:29:34.129Z [DEBUG] Stream started - received first chunk
+2025-11-26T00:29:34.765Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-26T00:29:34.766Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T00:29:34.766Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T00:29:37.142Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-26T00:29:37.142Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T00:29:37.142Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T00:29:39.330Z [DEBUG] Version 2.0.53 already installed, updating symlink
+2025-11-26T00:29:39.331Z [DEBUG] Successfully updated to version 2.0.53
+2025-11-26T00:29:48.723Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764116988723
+2025-11-26T00:29:48.723Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:29:48.724Z [DEBUG] Temp file written successfully, size: 46607 bytes
+2025-11-26T00:29:48.724Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:29:48.724Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764116988723 to /Users/spartan/.claude.json
+2025-11-26T00:29:48.724Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:29:51.969Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2025-11-26T00:29:52.400Z [DEBUG] Checking for native installer update to version 2.0.53
+2025-11-26T00:29:52.401Z [DEBUG] Version 2.0.53 already installed, updating symlink
+2025-11-26T00:29:52.401Z [DEBUG] Successfully updated to version 2.0.53
+2025-11-26T00:30:00.073Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2025-11-26T00:30:00.075Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764117000075
+2025-11-26T00:30:00.075Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:30:00.075Z [DEBUG] Temp file written successfully, size: 46608 bytes
+2025-11-26T00:30:00.075Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:30:00.075Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764117000075 to /Users/spartan/.claude.json
+2025-11-26T00:30:00.075Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:30:00.078Z [DEBUG] UserCommandMessage rendering: "usage" (args: "none")
+2025-11-26T00:30:00.078Z [DEBUG] isSkillFormat: false, prefix: "/"
+2025-11-26T00:30:00.089Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764117000089
+2025-11-26T00:30:00.089Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T00:30:00.089Z [DEBUG] Temp file written successfully, size: 46609 bytes
+2025-11-26T00:30:00.089Z [DEBUG] Applied original permissions to temp file
+2025-11-26T00:30:00.089Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764117000089 to /Users/spartan/.claude.json
+2025-11-26T00:30:00.089Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T00:30:00.501Z [DEBUG] Checking for native installer update to version 2.0.53
+2025-11-26T00:30:00.502Z [DEBUG] Version 2.0.53 already installed, updating symlink
+2025-11-26T00:30:00.502Z [DEBUG] Successfully updated to version 2.0.53
+2025-11-26T00:31:00.091Z [DEBUG] Getting matching hook commands for Notification with query: idle_prompt
+2025-11-26T00:31:00.091Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T00:31:00.091Z [DEBUG] Matched 0 unique hooks for query "idle_prompt" (0 before deduplication)
+2025-11-26T01:02:42.005Z [DEBUG] Checking for native installer update to version 2.0.53
+2025-11-26T01:02:42.007Z [DEBUG] Version 2.0.53 already installed, updating symlink
+2025-11-26T01:02:42.008Z [DEBUG] Successfully updated to version 2.0.53
+2025-11-26T01:36:04.648Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T01:36:04.649Z [DEBUG] Downloading native installer version 2.0.54
+2025-11-26T01:36:14.229Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T01:59:09.195Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T01:59:09.195Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T01:59:09.197Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T01:59:09.197Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T01:59:09.209Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-26T01:59:09.209Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T01:59:09.209Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T01:59:09.210Z [DEBUG] FileHistory: Added snapshot for bddfc049-7240-4cfd-a02c-46756328402a, tracking 0 files
+2025-11-26T01:59:09.221Z [DEBUG] Total plugin output styles loaded: 0
+2025-11-26T01:59:10.180Z [DEBUG] Stream started - received first chunk
+2025-11-26T01:59:12.072Z [DEBUG] Stream started - received first chunk
+2025-11-26T01:59:13.656Z [DEBUG] executePreToolHooks called for tool: Grep
+2025-11-26T01:59:13.658Z [DEBUG] Getting matching hook commands for PreToolUse with query: Grep
+2025-11-26T01:59:13.658Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T01:59:13.658Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2025-11-26T01:59:14.206Z [DEBUG] Getting matching hook commands for PostToolUse with query: Grep
+2025-11-26T01:59:14.206Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T01:59:14.206Z [DEBUG] Matched 0 unique hooks for query "Grep" (0 before deduplication)
+2025-11-26T01:59:14.216Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T01:59:14.216Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T01:59:14.219Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T01:59:14.219Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T01:59:16.735Z [DEBUG] Stream started - received first chunk
+2025-11-26T01:59:17.842Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-26T01:59:17.842Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T01:59:17.842Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T01:59:17.845Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122357845
+2025-11-26T01:59:17.845Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T01:59:17.845Z [DEBUG] Temp file written successfully, size: 46610 bytes
+2025-11-26T01:59:17.846Z [DEBUG] Applied original permissions to temp file
+2025-11-26T01:59:17.846Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122357845 to /Users/spartan/.claude.json
+2025-11-26T01:59:17.846Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T01:59:17.847Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122357847
+2025-11-26T01:59:17.847Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T01:59:17.847Z [DEBUG] Temp file written successfully, size: 46610 bytes
+2025-11-26T01:59:17.847Z [DEBUG] Applied original permissions to temp file
+2025-11-26T01:59:17.847Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122357847 to /Users/spartan/.claude.json
+2025-11-26T01:59:17.847Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:00:17.847Z [DEBUG] Getting matching hook commands for Notification with query: idle_prompt
+2025-11-26T02:00:17.847Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:00:17.847Z [DEBUG] Matched 0 unique hooks for query "idle_prompt" (0 before deduplication)
+2025-11-26T02:00:57.953Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:00:57.953Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:00:57.955Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:00:57.955Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:00:57.961Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-26T02:00:57.961Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:00:57.962Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:00:57.962Z [DEBUG] FileHistory: Making snapshot for message 6b877b74-a988-4f81-a655-fd7e401fb3f2
+2025-11-26T02:00:57.962Z [DEBUG] FileHistory: Added snapshot for 6b877b74-a988-4f81-a655-fd7e401fb3f2, tracking 0 files
+2025-11-26T02:00:58.877Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:01:00.600Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:01:03.923Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-26T02:01:03.923Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:01:03.923Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:01:03.927Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122463927
+2025-11-26T02:01:03.927Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:01:03.927Z [DEBUG] Temp file written successfully, size: 46611 bytes
+2025-11-26T02:01:03.927Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:01:03.927Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122463927 to /Users/spartan/.claude.json
+2025-11-26T02:01:03.927Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:01:03.928Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122463928
+2025-11-26T02:01:03.928Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:01:03.928Z [DEBUG] Temp file written successfully, size: 46611 bytes
+2025-11-26T02:01:03.928Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:01:03.928Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122463928 to /Users/spartan/.claude.json
+2025-11-26T02:01:03.928Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:01:16.228Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:01:16.228Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:01:16.230Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:01:16.230Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:01:16.237Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-26T02:01:16.237Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:01:16.237Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:01:16.237Z [DEBUG] FileHistory: Making snapshot for message 4812f7d2-657e-4600-be99-ccad3f35ff87
+2025-11-26T02:01:16.238Z [DEBUG] FileHistory: Added snapshot for 4812f7d2-657e-4600-be99-ccad3f35ff87, tracking 0 files
+2025-11-26T02:01:17.007Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:01:18.845Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:01:21.213Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-26T02:01:21.213Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:01:21.213Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:01:21.215Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122481215
+2025-11-26T02:01:21.215Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:01:21.216Z [DEBUG] Temp file written successfully, size: 46612 bytes
+2025-11-26T02:01:21.216Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:01:21.216Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122481215 to /Users/spartan/.claude.json
+2025-11-26T02:01:21.216Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:01:21.217Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122481217
+2025-11-26T02:01:21.217Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:01:21.217Z [DEBUG] Temp file written successfully, size: 46612 bytes
+2025-11-26T02:01:21.217Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:01:21.217Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122481217 to /Users/spartan/.claude.json
+2025-11-26T02:01:21.217Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:02:21.216Z [DEBUG] Getting matching hook commands for Notification with query: idle_prompt
+2025-11-26T02:02:21.216Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:02:21.216Z [DEBUG] Matched 0 unique hooks for query "idle_prompt" (0 before deduplication)
+2025-11-26T02:02:28.945Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:02:28.945Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:02:28.949Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:02:28.949Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:02:28.959Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-26T02:02:28.959Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:02:28.959Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:02:28.960Z [DEBUG] FileHistory: Making snapshot for message db22e8a1-09a7-451e-8298-a74a86e2a9d9
+2025-11-26T02:02:28.960Z [DEBUG] FileHistory: Added snapshot for db22e8a1-09a7-451e-8298-a74a86e2a9d9, tracking 0 files
+2025-11-26T02:02:29.888Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:02:31.987Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:02:33.809Z [DEBUG] executePreToolHooks called for tool: WebFetch
+2025-11-26T02:02:33.811Z [DEBUG] Getting matching hook commands for PreToolUse with query: WebFetch
+2025-11-26T02:02:33.811Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:02:33.811Z [DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+2025-11-26T02:02:36.212Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:02:39.926Z [DEBUG] Getting matching hook commands for PostToolUse with query: WebFetch
+2025-11-26T02:02:39.926Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:02:39.926Z [DEBUG] Matched 0 unique hooks for query "WebFetch" (0 before deduplication)
+2025-11-26T02:02:39.938Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:02:39.938Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:02:39.941Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:02:39.941Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:02:42.509Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:02:47.348Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-26T02:02:47.405Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-26T02:02:47.405Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:02:47.405Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:02:47.408Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122567408
+2025-11-26T02:02:47.408Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:02:47.408Z [DEBUG] Temp file written successfully, size: 46613 bytes
+2025-11-26T02:02:47.408Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:02:47.408Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122567408 to /Users/spartan/.claude.json
+2025-11-26T02:02:47.408Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:02:47.410Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122567410
+2025-11-26T02:02:47.410Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:02:47.410Z [DEBUG] Temp file written successfully, size: 46613 bytes
+2025-11-26T02:02:47.410Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:02:47.410Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122567410 to /Users/spartan/.claude.json
+2025-11-26T02:02:47.410Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:02:54.733Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:02:54.733Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:02:54.736Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:02:54.736Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:02:54.745Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-26T02:02:54.745Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:02:54.745Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:02:54.745Z [DEBUG] FileHistory: Making snapshot for message 2b380ab7-7727-4ea9-ac84-fd7bf1c7fcb6
+2025-11-26T02:02:54.745Z [DEBUG] FileHistory: Added snapshot for 2b380ab7-7727-4ea9-ac84-fd7bf1c7fcb6, tracking 0 files
+2025-11-26T02:02:55.554Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:02:57.940Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:02:59.678Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-26T02:02:59.678Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:02:59.678Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:02:59.682Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122579682
+2025-11-26T02:02:59.682Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:02:59.682Z [DEBUG] Temp file written successfully, size: 46614 bytes
+2025-11-26T02:02:59.682Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:02:59.682Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122579682 to /Users/spartan/.claude.json
+2025-11-26T02:02:59.683Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:02:59.685Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122579685
+2025-11-26T02:02:59.685Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:02:59.685Z [DEBUG] Temp file written successfully, size: 46614 bytes
+2025-11-26T02:02:59.685Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:02:59.685Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122579685 to /Users/spartan/.claude.json
+2025-11-26T02:02:59.685Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:03:07.064Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:03:07.064Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:03:07.067Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:03:07.067Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:03:07.073Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-26T02:03:07.073Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:03:07.073Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:03:07.074Z [DEBUG] FileHistory: Making snapshot for message 2e9a06c4-0055-459c-bde6-2dc24f18971e
+2025-11-26T02:03:07.074Z [DEBUG] FileHistory: Added snapshot for 2e9a06c4-0055-459c-bde6-2dc24f18971e, tracking 0 files
+2025-11-26T02:03:07.963Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:03:09.973Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:03:11.868Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-26T02:03:11.870Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-26T02:03:11.870Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:03:11.870Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-26T02:03:11.876Z [DEBUG] Writing to temp file: /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764122591876
+2025-11-26T02:03:11.876Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:03:11.876Z [DEBUG] Temp file written successfully, size: 461 bytes
+2025-11-26T02:03:11.876Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:03:11.876Z [DEBUG] Renaming /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764122591876 to /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json
+2025-11-26T02:03:11.877Z [DEBUG] File /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json written atomically
+2025-11-26T02:03:11.882Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-26T02:03:11.882Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:03:11.882Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-26T02:03:11.892Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:03:11.892Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:03:11.895Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:03:11.895Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:03:14.999Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:03:44.750Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-26T02:03:44.753Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-26T02:03:44.753Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:03:44.753Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-26T02:03:44.760Z [DEBUG] FileHistory: Tracked file modification for /Users/spartan/Downloads/spartan_labs/website/toon.js
+2025-11-26T02:03:45.348Z [DEBUG] Writing to temp file: /Users/spartan/Downloads/spartan_labs/website/toon.js.tmp.17859.1764122625348
+2025-11-26T02:03:45.348Z [DEBUG] Temp file written successfully, size: 6985 bytes
+2025-11-26T02:03:45.348Z [DEBUG] Renaming /Users/spartan/Downloads/spartan_labs/website/toon.js.tmp.17859.1764122625348 to /Users/spartan/Downloads/spartan_labs/website/toon.js
+2025-11-26T02:03:45.348Z [DEBUG] File /Users/spartan/Downloads/spartan_labs/website/toon.js written atomically
+2025-11-26T02:03:45.353Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-26T02:03:45.353Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:03:45.353Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-26T02:03:45.370Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:03:45.370Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:03:45.373Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:03:45.373Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:03:47.834Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:03:48.938Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-26T02:03:48.939Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-26T02:03:48.939Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:03:48.939Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-26T02:03:48.944Z [DEBUG] Writing to temp file: /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764122628944
+2025-11-26T02:03:48.944Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:03:48.945Z [DEBUG] Temp file written successfully, size: 463 bytes
+2025-11-26T02:03:48.945Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:03:48.945Z [DEBUG] Renaming /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764122628944 to /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json
+2025-11-26T02:03:48.945Z [DEBUG] File /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json written atomically
+2025-11-26T02:03:48.951Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-26T02:03:48.951Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:03:48.951Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-26T02:03:48.962Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:03:48.962Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:03:48.964Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:03:48.964Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:03:51.744Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:04:15.046Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-26T02:04:15.049Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-26T02:04:15.049Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:15.049Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-26T02:04:15.056Z [DEBUG] FileHistory: Tracked file modification for /Users/spartan/Downloads/spartan_labs/website/toon.py
+2025-11-26T02:04:15.057Z [DEBUG] Writing to temp file: /Users/spartan/Downloads/spartan_labs/website/toon.py.tmp.17859.1764122655057
+2025-11-26T02:04:15.057Z [DEBUG] Temp file written successfully, size: 8334 bytes
+2025-11-26T02:04:15.057Z [DEBUG] Renaming /Users/spartan/Downloads/spartan_labs/website/toon.py.tmp.17859.1764122655057 to /Users/spartan/Downloads/spartan_labs/website/toon.py
+2025-11-26T02:04:15.058Z [DEBUG] File /Users/spartan/Downloads/spartan_labs/website/toon.py written atomically
+2025-11-26T02:04:15.064Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-26T02:04:15.064Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:15.064Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-26T02:04:15.086Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:04:15.086Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:04:15.088Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:04:15.088Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:04:17.905Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:04:18.917Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-26T02:04:18.919Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-26T02:04:18.919Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:18.919Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-26T02:04:18.923Z [DEBUG] Writing to temp file: /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764122658923
+2025-11-26T02:04:18.923Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:04:18.924Z [DEBUG] Temp file written successfully, size: 465 bytes
+2025-11-26T02:04:18.924Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:04:18.924Z [DEBUG] Renaming /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764122658923 to /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json
+2025-11-26T02:04:18.924Z [DEBUG] File /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json written atomically
+2025-11-26T02:04:18.930Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-26T02:04:18.930Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:18.930Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-26T02:04:18.940Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:04:18.940Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:04:18.942Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:04:18.942Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:04:21.651Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:04:22.663Z [DEBUG] executePreToolHooks called for tool: Bash
+2025-11-26T02:04:22.665Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2025-11-26T02:04:22.665Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:22.665Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-26T02:04:22.674Z [DEBUG] No session environment scripts found
+2025-11-26T02:04:22.739Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2025-11-26T02:04:22.739Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:22.739Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2025-11-26T02:04:22.754Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:04:22.754Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:04:22.757Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:04:22.757Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:04:23.551Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:04:25.931Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:04:33.761Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-26T02:04:33.764Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-26T02:04:33.764Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:33.764Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-26T02:04:33.772Z [DEBUG] FileHistory: Tracked file modification for /Users/spartan/Downloads/spartan_labs/website/.claude/commands/toon.md
+2025-11-26T02:04:33.773Z [DEBUG] Writing to temp file: /Users/spartan/Downloads/spartan_labs/website/.claude/commands/toon.md.tmp.17859.1764122673773
+2025-11-26T02:04:33.774Z [DEBUG] Temp file written successfully, size: 1358 bytes
+2025-11-26T02:04:33.774Z [DEBUG] Renaming /Users/spartan/Downloads/spartan_labs/website/.claude/commands/toon.md.tmp.17859.1764122673773 to /Users/spartan/Downloads/spartan_labs/website/.claude/commands/toon.md
+2025-11-26T02:04:33.774Z [DEBUG] File /Users/spartan/Downloads/spartan_labs/website/.claude/commands/toon.md written atomically
+2025-11-26T02:04:33.779Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-26T02:04:33.779Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:33.779Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-26T02:04:33.797Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:04:33.797Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:04:33.800Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:04:33.800Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:04:36.580Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:04:37.666Z [DEBUG] executePreToolHooks called for tool: TodoWrite
+2025-11-26T02:04:37.668Z [DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+2025-11-26T02:04:37.668Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:37.668Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-26T02:04:37.674Z [DEBUG] Writing to temp file: /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764122677674
+2025-11-26T02:04:37.674Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:04:37.675Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-26T02:04:37.675Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:04:37.675Z [DEBUG] Renaming /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json.tmp.17859.1764122677674 to /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json
+2025-11-26T02:04:37.675Z [DEBUG] File /Users/spartan/.claude/todos/a04ced89-9026-4e16-b59b-513bc0993289-agent-a04ced89-9026-4e16-b59b-513bc0993289.json written atomically
+2025-11-26T02:04:37.679Z [DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+2025-11-26T02:04:37.679Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:37.679Z [DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+2025-11-26T02:04:37.689Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-26T02:04:37.689Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-26T02:04:37.692Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-26T02:04:37.692Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-26T02:04:40.437Z [DEBUG] Stream started - received first chunk
+2025-11-26T02:04:44.490Z [DEBUG] Language not supported while highlighting code, falling back to markdown:
+2025-11-26T02:04:44.566Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-26T02:04:44.566Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:04:44.566Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-26T02:04:44.569Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122684569
+2025-11-26T02:04:44.569Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:04:44.569Z [DEBUG] Temp file written successfully, size: 46615 bytes
+2025-11-26T02:04:44.569Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:04:44.569Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122684569 to /Users/spartan/.claude.json
+2025-11-26T02:04:44.569Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:04:44.571Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.17859.1764122684571
+2025-11-26T02:04:44.571Z [DEBUG] Preserving file permissions: 100600
+2025-11-26T02:04:44.571Z [DEBUG] Temp file written successfully, size: 46615 bytes
+2025-11-26T02:04:44.571Z [DEBUG] Applied original permissions to temp file
+2025-11-26T02:04:44.571Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.17859.1764122684571 to /Users/spartan/.claude.json
+2025-11-26T02:04:44.571Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-26T02:05:44.569Z [DEBUG] Getting matching hook commands for Notification with query: idle_prompt
+2025-11-26T02:05:44.569Z [DEBUG] Found 0 hook matchers in settings
+2025-11-26T02:05:44.569Z [DEBUG] Matched 0 unique hooks for query "idle_prompt" (0 before deduplication)
+2025-11-26T02:06:04.168Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T02:06:04.171Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T02:06:04.172Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T02:36:04.302Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T02:36:04.304Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T02:36:04.304Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T03:06:04.242Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T03:06:04.243Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T03:06:04.244Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T03:36:04.338Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T03:36:04.342Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T03:36:04.342Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T04:06:04.341Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T04:06:04.344Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T04:06:04.353Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T04:36:04.921Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T04:36:04.923Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T04:36:04.923Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T05:06:04.337Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T05:06:04.345Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T05:06:04.346Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T05:36:04.310Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T05:36:04.314Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T05:36:04.315Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T06:06:04.941Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T06:06:04.946Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T06:06:04.947Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T06:36:04.374Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T06:36:04.378Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T06:36:04.379Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T07:06:04.955Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T07:06:04.958Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T07:06:04.958Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T07:36:04.294Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T07:36:04.297Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T07:36:04.297Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T08:06:05.162Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T08:06:05.167Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T08:06:05.168Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T08:36:04.371Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T08:36:04.377Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T08:36:04.378Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T09:17:28.709Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T09:17:28.710Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T09:17:28.710Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T09:59:37.690Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T09:59:37.696Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T09:59:37.697Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T10:29:36.972Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T10:29:36.975Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T10:29:36.975Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T10:59:37.007Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T10:59:37.013Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T10:59:37.014Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T11:29:37.173Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T11:29:37.176Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T11:29:37.177Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T11:59:36.889Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T11:59:36.895Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T11:59:36.896Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T12:43:23.309Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T12:43:23.313Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T12:43:23.314Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T13:15:00.144Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T13:15:00.145Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T13:15:00.145Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T13:50:02.744Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T13:50:02.745Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T13:50:02.745Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T14:23:02.752Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T14:23:02.753Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T14:23:02.753Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T15:03:04.536Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T15:03:04.537Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T15:03:04.537Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T15:44:34.581Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T15:44:34.581Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T15:44:34.582Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T16:28:15.271Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T16:28:15.271Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T16:28:15.272Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T17:01:35.398Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T17:01:35.399Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T17:01:35.399Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T17:34:46.416Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T17:34:46.417Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T17:34:46.418Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T18:19:04.306Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T18:19:04.308Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T18:19:04.308Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T18:50:35.296Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T18:50:35.297Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T18:50:35.298Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T19:21:44.660Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T19:21:44.661Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T19:21:44.661Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T19:53:26.313Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T19:53:26.314Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T19:53:26.314Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T20:28:20.536Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T20:28:20.537Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T20:28:20.537Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T21:08:17.266Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T21:08:17.267Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T21:08:17.267Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T21:38:15.899Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T21:38:15.902Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T21:38:15.903Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T22:08:15.924Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T22:08:15.925Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T22:08:15.926Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T22:45:49.574Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T22:45:49.584Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T22:45:49.585Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T23:15:48.931Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T23:15:48.933Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T23:15:48.934Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-26T23:45:48.949Z [DEBUG] Checking for native installer update to version 2.0.54
+2025-11-26T23:45:48.953Z [DEBUG] Version 2.0.54 already installed, updating symlink
+2025-11-26T23:45:48.953Z [DEBUG] Successfully updated to version 2.0.54
+2025-11-27T00:15:48.934Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T00:15:48.937Z [DEBUG] Downloading native installer version 2.0.55
+2025-11-27T00:15:58.351Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T00:45:49.911Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T00:45:49.917Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T00:45:49.918Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T01:15:49.029Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T01:15:49.031Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T01:15:49.031Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T01:45:49.021Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T01:45:49.024Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T01:45:49.025Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T02:15:49.094Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T02:15:49.105Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T02:15:49.106Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T02:45:49.156Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T02:45:49.160Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T02:45:49.161Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T03:15:49.056Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T03:15:49.065Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T03:15:49.066Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T03:45:49.093Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T03:45:49.103Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T03:45:49.104Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T04:15:49.015Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T04:15:49.017Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T04:15:49.018Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T04:45:49.023Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T04:45:49.027Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T04:45:49.027Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T05:15:49.706Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T05:15:49.711Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T05:15:49.711Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T05:45:49.636Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T05:45:49.640Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T05:45:49.641Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T06:15:49.042Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T06:15:49.046Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T06:15:49.046Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T06:45:49.043Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T06:45:49.046Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T06:45:49.047Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T07:15:49.084Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T07:15:49.101Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T07:15:49.103Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T07:45:49.024Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T07:45:49.028Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T07:45:49.029Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T08:15:49.659Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T08:15:49.661Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T08:15:49.662Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T08:45:49.647Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T08:45:49.651Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T08:45:49.652Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T09:15:49.163Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T09:15:49.173Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T09:15:49.174Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T09:45:49.695Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T09:45:49.701Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T09:45:49.702Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T10:15:49.059Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T10:15:49.064Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T10:15:49.064Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T10:45:49.229Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T10:45:49.233Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T10:45:49.242Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T11:15:49.023Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T11:15:49.026Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T11:15:49.033Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T11:45:49.037Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T11:45:49.041Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T11:45:49.042Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T12:29:26.265Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T12:29:26.273Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T12:29:26.274Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T12:59:25.397Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T12:59:25.407Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T12:59:25.408Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T13:31:49.905Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T13:31:49.909Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T13:31:49.910Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T14:05:24.072Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T14:05:24.073Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T14:05:24.074Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T14:37:11.519Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T14:37:11.531Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T14:37:11.531Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T15:11:00.147Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T15:11:00.150Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T15:11:00.151Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T15:48:53.153Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T15:48:53.154Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T15:48:53.154Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T16:25:20.128Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T16:25:20.132Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T16:25:20.133Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T16:59:59.217Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T16:59:59.218Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T16:59:59.218Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T17:34:14.717Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T17:34:14.718Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T17:34:14.719Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T18:06:11.351Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T18:06:11.352Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T18:06:11.353Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T18:37:00.162Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T18:37:00.163Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T18:37:00.164Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T19:23:20.402Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T19:23:20.412Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T19:23:20.413Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T19:58:09.577Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T19:58:09.578Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T19:58:09.579Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T20:30:27.773Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T20:30:27.773Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T20:30:27.774Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T21:07:29.507Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T21:07:29.511Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T21:07:29.511Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T21:44:48.558Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T21:44:48.564Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T21:44:48.565Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T22:18:41.211Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T22:18:41.213Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T22:18:41.213Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T22:50:15.450Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T22:50:15.451Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T22:50:15.452Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T23:20:14.999Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T23:20:15.002Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T23:20:15.002Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-27T23:50:21.139Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-27T23:50:21.142Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-27T23:50:21.142Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T00:26:48.106Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T00:26:48.108Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T00:26:48.108Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T00:57:52.642Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T00:57:52.643Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T00:57:52.643Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T01:27:51.612Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T01:27:51.617Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T01:27:51.619Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T01:57:52.244Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T01:57:52.248Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T01:57:52.249Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T02:27:51.803Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T02:27:51.814Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T02:27:51.815Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T02:57:51.744Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T02:57:51.757Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T02:57:51.758Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T03:27:51.620Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T03:27:51.626Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T03:27:51.627Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T03:57:51.596Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T03:57:51.600Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T03:57:51.601Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T04:42:56.536Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T04:42:56.544Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T04:42:56.545Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T05:15:48.652Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T05:15:48.661Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T05:15:48.661Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T05:51:42.576Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T05:51:42.578Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T05:51:42.579Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T06:24:55.619Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T06:24:55.620Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T06:24:55.620Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T06:59:44.479Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T06:59:44.479Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T06:59:44.480Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T07:29:44.390Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T07:29:44.393Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T07:29:44.393Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T08:03:01.040Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T08:03:01.041Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T08:03:01.041Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T08:40:20.957Z [ERROR] Error: Error: Failed to fetch version from stable: Error: ECONNREFUSED
+    at y97 (/$bunfs/root/claude:2654:1625)
+    at processTicksAndRejections (native:7:39)
+2025-11-28T09:12:55.806Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T09:12:55.820Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T09:12:55.822Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T09:43:28.644Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T09:43:28.647Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T09:43:28.648Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T10:15:53.469Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T10:15:53.474Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T10:15:53.474Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T10:46:34.615Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T10:46:34.618Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T10:46:34.618Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T11:18:12.726Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T11:18:12.728Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T11:18:12.737Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T11:55:42.681Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T11:55:42.682Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T11:55:42.683Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T12:25:42.434Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T12:25:42.447Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T12:25:42.451Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T12:55:42.153Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T12:55:42.164Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T12:55:42.179Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T13:25:42.015Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T13:25:42.018Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T13:25:42.019Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T13:55:41.997Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T13:55:42.014Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T13:55:42.015Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T14:25:42.752Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T14:25:42.758Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T14:25:42.758Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T15:02:33.127Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T15:02:33.131Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T15:02:33.133Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T15:48:37.100Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T15:48:37.102Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T15:48:37.103Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T16:23:17.088Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T16:23:17.090Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T16:23:17.091Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T17:01:55.122Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T17:01:55.123Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T17:01:55.124Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T17:35:21.400Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T17:35:21.402Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T17:35:21.402Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T18:17:54.439Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T18:17:54.442Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T18:17:54.442Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T19:05:19.085Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T19:05:19.086Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T19:05:19.087Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T19:38:43.421Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T19:38:43.422Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T19:38:43.423Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T20:21:31.416Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T20:21:31.417Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T20:21:31.418Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T21:05:40.060Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T21:05:40.061Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T21:05:40.061Z [DEBUG] Successfully updated to version 2.0.55
+2025-11-28T21:37:45.671Z [DEBUG] Checking for native installer update to version 2.0.55
+2025-11-28T21:37:45.675Z [DEBUG] Version 2.0.55 already installed, updating symlink
+2025-11-28T21:37:45.676Z [DEBUG] Successfully updated to version 2.0.55

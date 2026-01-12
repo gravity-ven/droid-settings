@@ -1,0 +1,267 @@
+2025-11-29T03:52:53.043Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-29T03:52:53.043Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-29T03:52:53.043Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-29T03:52:53.044Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-29T03:52:53.044Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-29T03:52:53.052Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-29T03:52:53.053Z [DEBUG] Total LSP servers loaded: 0
+2025-11-29T03:52:53.055Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-29T03:52:53.055Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-29T03:52:53.055Z [DEBUG] LSP server manager initialized successfully
+2025-11-29T03:52:53.055Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-29T03:52:53.058Z [DEBUG] Loading skills from directories: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/spartan/.claude/skills, project=/Users/spartan/Downloads/spartan_labs/website/.claude/skills
+2025-11-29T03:52:53.058Z [DEBUG] >>>>> getPluginSkills CALLED <<<<<
+2025-11-29T03:52:53.058Z [DEBUG] Passes: Cache stale, returning cached data and refreshing in background
+2025-11-29T03:52:53.179Z [DEBUG] installed_plugins.json doesn't exist yet at /Users/spartan/.claude/plugins/installed_plugins.json, returning empty object
+2025-11-29T03:52:53.229Z [DEBUG] Creating shell snapshot for zsh (/bin/zsh)
+2025-11-29T03:52:53.229Z [DEBUG] Looking for shell config file: /Users/spartan/.zshrc
+2025-11-29T03:52:53.229Z [DEBUG] Snapshots directory: /Users/spartan/.claude/shell-snapshots
+2025-11-29T03:52:53.229Z [DEBUG] Creating snapshot at: /Users/spartan/.claude/shell-snapshots/snapshot-zsh-1764388373229-2sg54t.sh
+2025-11-29T03:52:53.229Z [DEBUG] Shell binary exists: true
+2025-11-29T03:52:53.229Z [DEBUG] Execution timeout: 10000ms
+2025-11-29T03:52:53.230Z [DEBUG] Writing to temp file: /Users/spartan/.claude/todos/c6661152-6e8a-4366-9639-4d2e058c9fa2-agent-c6661152-6e8a-4366-9639-4d2e058c9fa2.json.tmp.78384.1764388373230
+2025-11-29T03:52:53.230Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-29T03:52:53.230Z [DEBUG] Renaming /Users/spartan/.claude/todos/c6661152-6e8a-4366-9639-4d2e058c9fa2-agent-c6661152-6e8a-4366-9639-4d2e058c9fa2.json.tmp.78384.1764388373230 to /Users/spartan/.claude/todos/c6661152-6e8a-4366-9639-4d2e058c9fa2-agent-c6661152-6e8a-4366-9639-4d2e058c9fa2.json
+2025-11-29T03:52:53.230Z [DEBUG] File /Users/spartan/.claude/todos/c6661152-6e8a-4366-9639-4d2e058c9fa2-agent-c6661152-6e8a-4366-9639-4d2e058c9fa2.json written atomically
+2025-11-29T03:52:53.232Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-11-29T03:52:53.232Z [DEBUG] Total plugin skills loaded: 0
+2025-11-29T03:52:53.232Z [DEBUG] Total plugin commands loaded: 0
+2025-11-29T03:52:53.232Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-11-29T03:52:53.233Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-11-29T03:52:53.234Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills
+2025-11-29T03:52:53.252Z [DEBUG] Total plugin agents loaded: 0
+2025-11-29T03:52:53.255Z [DEBUG] Acquired lock on running version: /Users/spartan/.local/share/claude/versions/2.0.55
+2025-11-29T03:52:53.258Z [DEBUG] Git remote URL: https://github.com/gravity-ven/Spartan_Labs
+2025-11-29T03:52:53.258Z [DEBUG] Parsed repository: gravity-ven/Spartan_Labs from https://github.com/gravity-ven/Spartan_Labs
+2025-11-29T03:52:53.258Z [DEBUG] Parsed repository: gravity-ven/Spartan_Labs from URL: https://github.com/gravity-ven/Spartan_Labs
+2025-11-29T03:52:53.258Z [DEBUG] Path /Users/spartan/Downloads/spartan_labs/website already tracked for repo gravity-ven/spartan_labs
+2025-11-29T03:52:53.401Z [DEBUG] Shell snapshot created successfully (2754 bytes)
+2025-11-29T03:52:53.852Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/Users/spartan/.local/share/claude/versions/2.0.55)
+2025-11-29T03:52:58.223Z [DEBUG] Failed to check metrics opt-out status: timeout of 5000ms exceeded
+2025-11-29T03:52:58.223Z [ERROR] AxiosError: Error
+    at <anonymous> (/$bunfs/root/claude:32:10674)
+    at emit (node:events:92:22)
+    at <anonymous> (/$bunfs/root/claude:31:3314)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:23.066Z [DEBUG] Failed to fetch Grove notice config: Error: ECONNREFUSED
+2025-11-29T03:53:23.112Z [DEBUG] Passes: Cache stale, returning cached data and refreshing in background
+2025-11-29T03:53:23.112Z [DEBUG] Passes: Reusing in-flight eligibility fetch
+2025-11-29T03:53:23.118Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388403118
+2025-11-29T03:53:23.118Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:53:23.119Z [DEBUG] Temp file written successfully, size: 46615 bytes
+2025-11-29T03:53:23.119Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:53:23.119Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388403118 to /Users/spartan/.claude.json
+2025-11-29T03:53:23.119Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T03:53:23.126Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2025-11-29T03:53:23.127Z [DEBUG] Found 0 hook matchers in settings
+2025-11-29T03:53:23.127Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2025-11-29T03:53:23.131Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-29T03:53:23.131Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-29T03:53:23.154Z [DEBUG] Failed to fetch and cache passes eligibility
+2025-11-29T03:53:23.154Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:23.154Z [DEBUG] Summarizing all 35 messages (~7643 tokens)
+2025-11-29T03:53:23.208Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388403208
+2025-11-29T03:53:23.208Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:53:23.209Z [DEBUG] Temp file written successfully, size: 46510 bytes
+2025-11-29T03:53:23.209Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:53:23.209Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388403208 to /Users/spartan/.claude.json
+2025-11-29T03:53:23.209Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T03:53:23.210Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388403210
+2025-11-29T03:53:23.210Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:53:23.210Z [DEBUG] Temp file written successfully, size: 46510 bytes
+2025-11-29T03:53:23.210Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:53:23.210Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388403210 to /Users/spartan/.claude.json
+2025-11-29T03:53:23.210Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T03:53:23.214Z [DEBUG] performStartupChecks called
+2025-11-29T03:53:23.214Z [DEBUG] Starting background plugin installations
+2025-11-29T03:53:23.214Z [DEBUG] performBackgroundPluginInstallations called
+2025-11-29T03:53:23.218Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2025-11-29T03:53:23.221Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2025-11-29T03:53:23.222Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2025-11-29T03:53:23.223Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:23.225Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388403225
+2025-11-29T03:53:23.225Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:53:23.225Z [DEBUG] Temp file written successfully, size: 46510 bytes
+2025-11-29T03:53:23.225Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:53:23.225Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388403225 to /Users/spartan/.claude.json
+2025-11-29T03:53:23.225Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T03:53:23.226Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388403226
+2025-11-29T03:53:23.226Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:53:23.226Z [DEBUG] Temp file written successfully, size: 46510 bytes
+2025-11-29T03:53:23.226Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:53:23.226Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388403226 to /Users/spartan/.claude.json
+2025-11-29T03:53:23.226Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T03:53:23.227Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388403227
+2025-11-29T03:53:23.227Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:53:23.227Z [DEBUG] Temp file written successfully, size: 46615 bytes
+2025-11-29T03:53:23.227Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:53:23.227Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388403227 to /Users/spartan/.claude.json
+2025-11-29T03:53:23.227Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T03:53:23.231Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:23.231Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388403231
+2025-11-29T03:53:23.231Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:53:23.231Z [DEBUG] Temp file written successfully, size: 46577 bytes
+2025-11-29T03:53:23.231Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:53:23.231Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388403231 to /Users/spartan/.claude.json
+2025-11-29T03:53:23.232Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T03:53:23.233Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:23.233Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:23.234Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2025-11-29T03:53:23.234Z [DEBUG] Found 0 hook matchers in settings
+2025-11-29T03:53:23.234Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2025-11-29T03:53:23.261Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2025-11-29T03:53:23.261Z [DEBUG] Found 0 hook matchers in settings
+2025-11-29T03:53:23.261Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2025-11-29T03:53:23.455Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:43.467Z [ERROR] AxiosError: Error
+    at <anonymous> (/$bunfs/root/claude:32:10674)
+    at emit (node:events:92:22)
+    at <anonymous> (/$bunfs/root/claude:31:3314)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:49.516Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388429516
+2025-11-29T03:53:49.516Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:53:49.517Z [DEBUG] Temp file written successfully, size: 46577 bytes
+2025-11-29T03:53:49.517Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:53:49.517Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388429516 to /Users/spartan/.claude.json
+2025-11-29T03:53:49.517Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T03:53:53.222Z [ERROR] Error: Error: Failed to fetch version from stable: AxiosError: timeout of 30000ms exceeded
+    at k17 (/$bunfs/root/claude:2665:30754)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:53:53.467Z [ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+2025-11-29T03:53:53.516Z [ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+2025-11-29T03:53:53.543Z [ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+2025-11-29T03:53:53.565Z [ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+2025-11-29T03:53:54.499Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:54:00.776Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-29T03:54:00.776Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-29T03:54:00.781Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-29T03:54:00.781Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-29T03:54:00.797Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-29T03:54:00.797Z [DEBUG] Found 0 hook matchers in settings
+2025-11-29T03:54:00.797Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-29T03:54:00.799Z [DEBUG] FileHistory: Added snapshot for 5531db04-4122-4990-a500-7bb55464c17c, tracking 0 files
+2025-11-29T03:54:00.831Z [DEBUG] Total plugin output styles loaded: 0
+2025-11-29T03:54:14.520Z [ERROR] AxiosError: Error
+    at <anonymous> (/$bunfs/root/claude:32:10674)
+    at emit (node:events:92:22)
+    at <anonymous> (/$bunfs/root/claude:31:3314)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:54:23.934Z [ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+2025-11-29T03:54:23.971Z [ERROR] Error streaming, falling back to non-streaming mode: Connection error.
+2025-11-29T03:54:23.998Z [ERROR] Error: Error: Connection error.
+    at makeRequest (/$bunfs/root/claude:1262:4547)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:54:25.218Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:54:25.439Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:54:45.232Z [ERROR] AxiosError: Error
+    at <anonymous> (/$bunfs/root/claude:32:10674)
+    at emit (node:events:92:22)
+    at <anonymous> (/$bunfs/root/claude:31:3314)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:54:55.855Z [ERROR] Error: Error
+    at <anonymous> (/$bunfs/root/claude:14:14648)
+    at <anonymous> (/$bunfs/root/claude:32:10252)
+    at emitError (node:events:43:23)
+    at <anonymous> (/$bunfs/root/claude:31:1146)
+    at emitError (node:events:43:23)
+    at <anonymous> (node:_http_client:248:22)
+    at processTicksAndRejections (native:7:39)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:55:15.878Z [ERROR] AxiosError: Error
+    at <anonymous> (/$bunfs/root/claude:32:10674)
+    at emit (node:events:92:22)
+    at <anonymous> (/$bunfs/root/claude:31:3314)
+    at request (/$bunfs/root/claude:34:2147)
+    at processTicksAndRejections (native:7:39)
+2025-11-29T03:59:43.813Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.78384.1764388783813
+2025-11-29T03:59:43.813Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T03:59:43.814Z [DEBUG] Temp file written successfully, size: 46577 bytes
+2025-11-29T03:59:43.814Z [DEBUG] Applied original permissions to temp file
+2025-11-29T03:59:43.814Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.78384.1764388783813 to /Users/spartan/.claude.json
+2025-11-29T03:59:43.815Z [DEBUG] File /Users/spartan/.claude.json written atomically

@@ -1,0 +1,105 @@
+# Spartan Research Station - Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Data files (don't commit large datasets)
+data/
+*.json.gz
+*.csv
+*.tsv
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# API Keys and Secrets
+finnhub_config.json
+secrets.json
+
+# Cache
+cache/
+.cache/
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Backup files
+*.backup
+*.bak
+*.old
+backup_*.tar.gz
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Backtest Results
+backtest_results/
+*.pkl
+*.pickle
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Database
+*.db-shm
+*.db-wal
+
+# Trading Specific
+positions.json
+orders.json
+trade_history.json
+portfolio_state.json
+
+# Keep directory structure but ignore contents
+!data/.gitkeep
+!logs/.gitkeep

@@ -1,35 +1,51 @@
-2025-11-19T06:44:35.646Z [DEBUG] Watching for changes in setting files /Users/spartan/.claude/settings.local.json...
-2025-11-19T06:44:35.696Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
-2025-11-19T06:44:35.696Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
-2025-11-19T06:44:35.696Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
-2025-11-19T06:44:35.697Z [DEBUG] [LSP SERVER MANAGER] initialize() called
-2025-11-19T06:44:35.697Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
-2025-11-19T06:44:35.709Z [DEBUG] update: Starting update check
-2025-11-19T06:44:35.709Z [DEBUG] update: Running diagnostic
-2025-11-19T06:44:35.712Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
-2025-11-19T06:44:35.718Z [DEBUG] Total LSP servers loaded: 0
-2025-11-19T06:44:35.719Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
-2025-11-19T06:44:35.719Z [DEBUG] LSP manager initialized with 0 servers
-2025-11-19T06:44:35.719Z [DEBUG] LSP server manager initialized successfully
-2025-11-19T06:44:35.719Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
-2025-11-19T06:44:35.975Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.88124.1763534675975
-2025-11-19T06:44:35.975Z [DEBUG] Preserving file permissions: 100600
-2025-11-19T06:44:35.975Z [DEBUG] Temp file written successfully, size: 44471 bytes
-2025-11-19T06:44:35.975Z [DEBUG] Applied original permissions to temp file
-2025-11-19T06:44:35.975Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.88124.1763534675975 to /Users/spartan/.claude.json
-2025-11-19T06:44:35.976Z [DEBUG] File /Users/spartan/.claude.json written atomically
-2025-11-19T06:44:36.121Z [DEBUG] update: Installation type: native
-2025-11-19T06:44:36.121Z [DEBUG] update: Config install method: native
-2025-11-19T06:44:36.121Z [DEBUG] update: Detected native installation, using native updater
-2025-11-19T06:44:37.230Z [DEBUG] Checking for native installer update to version 2.0.46
-2025-11-19T06:44:44.243Z [ERROR] Error: Error: NON-FATAL: Lock acquisition failed for /Users/spartan/.local/share/claude/versions/2.0.46 (expected in multi-process scenarios)
-    at aq0 (/$bunfs/root/claude:2532:1516)
-    at N4A (/$bunfs/root/claude:2530:12601)
-    at async tp8 (/$bunfs/root/claude:2530:13807)
-    at async Ux (/$bunfs/root/claude:2532:236)
-    at async SA1 (/$bunfs/root/claude:4405:120)
+2025-11-29T04:09:34.762Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-29T04:09:34.762Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-29T04:09:34.762Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-29T04:09:34.762Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-29T04:09:34.762Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-29T04:09:34.775Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-29T04:09:34.775Z [DEBUG] Total LSP servers loaded: 0
+2025-11-29T04:09:34.777Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-29T04:09:34.777Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-29T04:09:34.777Z [DEBUG] LSP server manager initialized successfully
+2025-11-29T04:09:34.777Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-29T04:09:34.781Z [DEBUG] Loading skills from directories: managed=/Library/Application Support/ClaudeCode/.claude/skills, user=/Users/spartan/.claude/skills, project=/.claude/skills
+2025-11-29T04:09:34.781Z [DEBUG] >>>>> getPluginSkills CALLED <<<<<
+2025-11-29T04:09:34.781Z [DEBUG] Passes: Cache stale, returning cached data and refreshing in background
+2025-11-29T04:09:34.843Z [DEBUG] installed_plugins.json doesn't exist yet at /Users/spartan/.claude/plugins/installed_plugins.json, returning empty object
+2025-11-29T04:09:34.855Z [DEBUG] Creating shell snapshot for zsh (/bin/zsh)
+2025-11-29T04:09:34.855Z [DEBUG] Looking for shell config file: /Users/spartan/.zshrc
+2025-11-29T04:09:34.855Z [DEBUG] Snapshots directory: /Users/spartan/.claude/shell-snapshots
+2025-11-29T04:09:34.856Z [DEBUG] Creating snapshot at: /Users/spartan/.claude/shell-snapshots/snapshot-zsh-1764389374855-3m149j.sh
+2025-11-29T04:09:34.856Z [DEBUG] Shell binary exists: true
+2025-11-29T04:09:34.856Z [DEBUG] Execution timeout: 10000ms
+2025-11-29T04:09:34.857Z [DEBUG] Writing to temp file: /Users/spartan/.claude/todos/8f0da558-578b-4bcf-b041-cd5baf4b0b50-agent-8f0da558-578b-4bcf-b041-cd5baf4b0b50.json.tmp.2242.1764389374857
+2025-11-29T04:09:34.857Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-29T04:09:34.857Z [DEBUG] Renaming /Users/spartan/.claude/todos/8f0da558-578b-4bcf-b041-cd5baf4b0b50-agent-8f0da558-578b-4bcf-b041-cd5baf4b0b50.json.tmp.2242.1764389374857 to /Users/spartan/.claude/todos/8f0da558-578b-4bcf-b041-cd5baf4b0b50-agent-8f0da558-578b-4bcf-b041-cd5baf4b0b50.json
+2025-11-29T04:09:34.857Z [DEBUG] File /Users/spartan/.claude/todos/8f0da558-578b-4bcf-b041-cd5baf4b0b50-agent-8f0da558-578b-4bcf-b041-cd5baf4b0b50.json written atomically
+2025-11-29T04:09:34.861Z [DEBUG] Writing to temp file: /Users/spartan/.claude.json.tmp.2242.1764389374861
+2025-11-29T04:09:34.861Z [DEBUG] Preserving file permissions: 100600
+2025-11-29T04:09:34.861Z [DEBUG] Temp file written successfully, size: 46160 bytes
+2025-11-29T04:09:34.861Z [DEBUG] Applied original permissions to temp file
+2025-11-29T04:09:34.861Z [DEBUG] Renaming /Users/spartan/.claude.json.tmp.2242.1764389374861 to /Users/spartan/.claude.json
+2025-11-29T04:09:34.861Z [DEBUG] File /Users/spartan/.claude.json written atomically
+2025-11-29T04:09:34.861Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-11-29T04:09:34.861Z [DEBUG] Total plugin skills loaded: 0
+2025-11-29T04:09:34.861Z [DEBUG] Total plugin commands loaded: 0
+2025-11-29T04:09:34.862Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-11-29T04:09:34.863Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-11-29T04:09:34.865Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills
+2025-11-29T04:09:34.887Z [DEBUG] Total plugin agents loaded: 0
+2025-11-29T04:09:34.895Z [DEBUG] Git remote URL: null
+2025-11-29T04:09:34.895Z [DEBUG] No git remote URL found
+2025-11-29T04:09:34.895Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2025-11-29T04:09:34.897Z [DEBUG] Acquired lock on running version: /Users/spartan/.local/share/claude/versions/2.0.55
+2025-11-29T04:09:35.019Z [DEBUG] Shell snapshot created successfully (2754 bytes)
+2025-11-29T04:09:35.661Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/Users/spartan/.local/share/claude/versions/2.0.55)
+2025-11-29T04:09:39.850Z [DEBUG] Failed to check metrics opt-out status: timeout of 5000ms exceeded
+2025-11-29T04:09:39.850Z [ERROR] AxiosError: Error
+    at <anonymous> (/$bunfs/root/claude:32:10674)
+    at emit (node:events:92:22)
+    at <anonymous> (/$bunfs/root/claude:31:3314)
+    at request (/$bunfs/root/claude:34:2147)
     at processTicksAndRejections (native:7:39)
-2025-11-19T06:44:44.246Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
-2025-11-19T06:44:44.247Z [DEBUG] Found 0 hook matchers in settings
-2025-11-19T06:44:44.247Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)
-2025-11-19T06:44:44.251Z [DEBUG] LSP server manager shut down successfully

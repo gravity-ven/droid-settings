@@ -1,0 +1,160 @@
+# Spartan Research Station & Trading Agent
+
+> A comprehensive financial market research platform with AI-powered trading capabilities.
+
+## 🎯 Overview
+
+This platform combines:
+1. **Spartan Research Station** - Real-time macro economic analysis dashboard with live market data, intermarket barometers, and pattern discovery
+2. **Spartan Trading Agent** - An AI-first trading system powered by Claude AI for intelligent trading decisions
+
+---
+
+## 📊 Research Station Features
+
+### Live Market Dashboard
+- **S&P 500** - Real-time index tracking
+- **10-Year Treasury** - Bond yield monitoring
+- **VIX Index** - Market volatility indicator
+- **Dollar Index (DXY)** - USD strength tracker
+
+### 10 Intermarket Leading Indicators (Barometers)
+- **Tier 1 (6-18 month lead)**: Credit spreads, yield curve, China credit impulse
+- **Tier 2 (3-6 month lead)**: Copper/Gold ratio, Baltic Dry Index, market breadth
+- **Tier 3 (1-3 month lead)**: AUD/JPY, VIX, Put/Call ratios
+- **Composite Risk Score**: 0-100 scale (GREEN/YELLOW/RED status)
+
+### Economic Indicators (FRED Integration)
+- GDP Growth Rate
+- Consumer Price Index (CPI)
+- Unemployment Rate
+- Federal Funds Rate
+
+### Pattern Discovery (4 AI Agents)
+- BreakthroughAgent: Institutional patterns, sector rotation
+- DiscoveryAgent: Hidden correlations, options flow
+- PatternAgent: Fibonacci clusters, Elliott Wave
+- TimingAgent: COT positioning, seasonal windows
+
+---
+
+## 🤖 Trading Agent Features
+
+- **🧠 Claude AI Core**: Anthropic's most advanced AI at the center of all trading decisions
+- **🔌 Modular Architecture**: Plug and play different data sources, brokers, and strategies
+- **📊 Multi-Asset Support**: Stocks, crypto, forex, futures - all in one system
+- **⚡ Real-time Processing**: Async architecture for millisecond decision-making
+- **🛡️ Risk Management**: Built-in safeguards to protect capital
+- **📈 Backtesting**: Test strategies on years of historical data
+
+---
+
+## 🚀 Quick Start
+
+### Research Station (Recommended)
+
+```bash
+cd website
+python3 BULLETPROOF_STARTUP.py
+```
+
+This orchestrated startup:
+- Starts all API servers in correct order
+- Validates each service with health checks
+- Opens browser only when 100% ready
+
+### Trading Agent
+
+```bash
+# Paper trading (test without real money)
+python -m src.main --mode paper
+
+# Backtesting
+python -m src.backtest --strategy claude_momentum --start 2023-01-01
+
+# Live trading (after thorough testing!)
+python -m src.main --mode live
+```
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/gravity-ven/Spartan_Labs.git
+cd Spartan_Labs
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
+cp .env.example .env
+# Edit .env with your API keys
+```
+
+---
+
+## 🔑 API Keys Required
+
+### Free APIs
+- **FRED API**: Economic data (https://fred.stlouisfed.org/)
+- **Yahoo Finance**: Market data via yfinance (no key needed)
+- **CoinGecko**: Cryptocurrency data (no key needed)
+
+### Premium APIs (Optional)
+- **Polygon.io**: Real-time stock data
+- **Alpha Vantage**: Alternative market data
+- **Anthropic**: Claude AI for trading agent
+
+### Broker APIs (For Trading)
+- Alpaca (stocks): https://alpaca.markets/
+- Interactive Brokers: https://www.interactivebrokers.com/
+
+---
+
+## 📚 Documentation
+
+### Research Station
+- [Barometers Setup](BAROMETERS_README.md)
+- [Breakthrough Insights](BREAKTHROUGH_INSIGHTS_README.md)
+- [Architecture Mantra](ARCHITECTURE_MANTRA.md)
+- [Config Central](CONFIG_CENTRAL.md)
+
+### Trading Agent
+- [Architecture Overview](ARCHITECTURE.md)
+- [Getting Started](GETTING_STARTED.md)
+- [Breakout Edge Strategy](BREAKOUT_EDGE.md)
+- [Complete Guide](COMPLETE_GUIDE.md)
+
+---
+
+## ⚠️ Disclaimer
+
+**IMPORTANT**:
+- This platform is for **informational and educational purposes only**
+- **Not financial advice** or investment recommendations
+- Trading involves substantial risk of loss
+- Start with paper trading before using real capital
+- The authors are not responsible for any financial losses
+- Always verify critical data with official sources
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📄 License
+
+MIT License - See LICENSE file for details.
+
+---
+
+**Last Updated:** November 2025

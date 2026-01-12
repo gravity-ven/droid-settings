@@ -1,0 +1,460 @@
+<<<<<<< HEAD
+# Capital Flows Research - Interactive Dashboard
+
+A comprehensive, real-time macro economic analysis dashboard featuring live market data, economic indicators, and interactive visualizations.
+
+## Features
+
+### 📊 Live Market Dashboard
+- **S&P 500** - Real-time index tracking
+- **10-Year Treasury** - Bond yield monitoring
+- **VIX Index** - Market volatility indicator
+- **Dollar Index (DXY)** - USD strength tracker
+
+### 📈 Economic Indicators (FRED Integration)
+- GDP Growth Rate
+- Consumer Price Index (CPI)
+- Unemployment Rate
+- Federal Funds Rate
+
+### 🎯 Interactive Visualizations
+- **10-Year Treasury Yield Chart** - 6-month historical data
+- **Fed Balance Sheet Chart** - 1-year historical tracking
+- **Macro Regime Tracker** - AI-powered regime probability detection
+
+### 📚 Free Resources Directory
+Curated list of:
+- Free macro newsletters (Substack)
+- Economic data sources (FRED, IMF, World Bank)
+- Market data tools (TradingView, Yahoo Finance)
+
+## Getting Started
+
+### Quick Preview
+
+1. Simply open `index.html` in your browser:
+   ```bash
+   # Using Python 3
+   python3 -m http.server 8000
+
+   # Then visit: http://localhost:8000
+   ```
+
+2. Or double-click `index.html` to open directly in your browser
+
+### Using Real Data Endpoints
+
+The dashboard currently uses **simulated data** for demonstration. To connect **real data sources**:
+
+#### 1. FRED API (Free - Recommended)
+
+**Get your free API key:**
+1. Visit https://fred.stlouisfed.org/
+2. Create a free account
+3. Go to "My Account" → "API Keys"
+4. Copy your API key
+
+**Update the code:**
+```javascript
+// In index.html, line ~625, replace:
+const FRED_API_KEY = 'YOUR_FRED_API_KEY';
+
+// With your actual key:
+const FRED_API_KEY = 'your_actual_api_key_here';
+```
+
+**Then uncomment the real FRED API calls** in the code (lines are marked with comments)
+
+#### 2. Alpha Vantage API (Free Tier Available)
+
+For real-time stock market data:
+1. Get free API key: https://www.alphavantage.co/support/#api-key
+2. Integrate using their documentation: https://www.alphavantage.co/documentation/
+
+#### 3. Yahoo Finance API
+
+Free alternative for market data:
+- Use Yahoo Finance API libraries
+- No API key required for basic usage
+- Example: https://github.com/ranaroussi/yfinance
+
+## Data Endpoints Used
+
+### Current (Simulated)
+- Market prices: Simulated real-time data
+- Economic indicators: Static demonstration values
+- Charts: Generated from simulated historical data
+
+### Production-Ready (Available)
+- **FRED API**: All economic indicators (GDP, CPI, Unemployment, Fed Funds, Treasury yields, Fed Balance Sheet)
+- **Yahoo Finance**: Stock indices, market data
+- **Alpha Vantage**: Alternative market data source
+- **Trading Economics API**: International economic calendar
+
+## Technical Stack
+
+- **HTML5** - Semantic structure
+- **CSS3** - Modern styling with animations
+- **JavaScript (ES6+)** - Interactive functionality
+- **Chart.js** - Data visualization library
+- **FRED API** - Economic data integration
+- **Responsive Design** - Mobile-friendly layout
+
+## Key Features
+
+### 1. Real-Time Data Updates
+- Market data updates every 30 seconds
+- Economic indicators refresh every 5 minutes
+- Automatic timestamp tracking
+
+### 2. Interactive Charts
+- 10-Year Treasury Yield (6-month history)
+- Federal Reserve Balance Sheet (1-year history)
+- Smooth animations and hover effects
+
+### 3. Macro Regime Tracker
+Simulated AI-powered regime detection showing probability distribution:
+- Reflation
+- Goldilocks
+- Stagflation
+- Deflation
+
+### 4. Responsive Design
+- Desktop-optimized layout
+- Mobile-responsive grid system
+- Touch-friendly interface
+
+## Data Sources
+
+### Economic Data
+- [FRED](https://fred.stlouisfed.org) - Federal Reserve Economic Data
+- [IMF](https://www.imf.org/en/Publications/WEO) - World Economic Outlook
+- [World Bank](https://data.worldbank.org/) - Open Data
+- [OECD](https://stats.oecd.org/) - Statistics
+
+### Market Data
+- [Yahoo Finance](https://finance.yahoo.com/) - Market quotes
+- [Alpha Vantage](https://www.alphavantage.co/) - Stock APIs
+- [Trading Economics](https://tradingeconomics.com/) - Economic calendar
+
+## Customization
+
+### Adding New Indicators
+
+1. **Add HTML element:**
+```html
+<div class="indicator-card">
+    <div>
+        <div class="indicator-name">Your Indicator</div>
+        <div class="indicator-value" id="your-indicator">...</div>
+    </div>
+</div>
+```
+
+2. **Fetch data in JavaScript:**
+```javascript
+const yourData = await fetchFREDData('SERIES_ID');
+document.getElementById('your-indicator').innerHTML = `${yourData.toFixed(2)}%`;
+```
+
+3. **Find FRED series IDs:** https://fred.stlouisfed.org/
+
+### Adding New Charts
+
+1. Create canvas element in HTML
+2. Use Chart.js to create visualization
+3. Fetch time series data from FRED API
+4. Update chart with real data
+
+## Free Alternatives to Premium Services
+
+The dashboard includes a comprehensive resources section highlighting:
+
+### Free Newsletters
+- The Macro Compass (Alf)
+- Credit from Macro to Micro
+- Lord Fed's Gazette
+- Short Excerpts from GMI (Raoul Pal)
+
+### Free Data Sources
+- FRED (841,000+ economic time series)
+- IMF World Economic Outlook Database
+- World Bank Open Data
+- OECD.Stat
+- BIS Statistics
+
+### Free Tools
+- TradingView (free tier)
+- Yahoo Finance
+- Investing.com
+- Trading Economics
+
+## Performance Optimization
+
+- Lazy loading for charts
+- Debounced API calls
+- Efficient DOM updates
+- CSS animations (GPU-accelerated)
+- Minimal external dependencies
+
+## Browser Support
+
+- Chrome/Edge (latest)
+- Firefox (latest)
+- Safari (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## Limitations
+
+### Demo Mode (Current)
+- Uses simulated data for demonstration
+- No real-time market updates
+- Static economic indicators
+
+### With API Keys
+- FRED API: 120 requests/minute limit
+- Alpha Vantage free: 500 requests/day
+- Rate limiting considerations
+
+## Future Enhancements
+
+- [ ] Real-time WebSocket market data
+- [ ] User authentication for saved preferences
+- [ ] Custom indicator selection
+- [ ] Export data functionality
+- [ ] Email alerts for regime changes
+- [ ] Mobile app version
+- [ ] Additional asset classes (Commodities, Crypto)
+- [ ] Machine learning regime detection
+
+## Contributing
+
+This is an open educational project. Feel free to:
+- Add new data sources
+- Improve visualizations
+- Enhance mobile responsiveness
+- Add new indicators
+- Optimize performance
+
+## Disclaimer
+
+**Important Notice:**
+- This dashboard is for **informational and educational purposes only**
+- **Not financial advice** or investment recommendations
+- Data accuracy depends on external API sources
+- No guarantees of data completeness or timeliness
+- Always verify critical data with official sources
+- Past performance does not guarantee future results
+
+## License
+
+MIT License - See LICENSE file for details
+
+## Resources & Links
+
+### Capital Flows Research
+- Website: https://capitalflowsresearch.com
+- Twitter: [@Globalflows](https://twitter.com/Globalflows) (64.1K followers)
+- YouTube: [Capital Flows Research](https://www.youtube.com/@capitalflowsresearch) (27K subscribers)
+- Platform: Substack Publication
+
+### Data Provider Documentation
+- [FRED API Docs](https://fred.stlouisfed.org/docs/api/fred/)
+- [Alpha Vantage API Docs](https://www.alphavantage.co/documentation/)
+- [Chart.js Documentation](https://www.chartjs.org/docs/latest/)
+
+## Support
+
+For questions or issues:
+1. Check the code comments for implementation details
+2. Review FRED API documentation
+3. Consult Chart.js documentation for visualization questions
+
+## Acknowledgments
+
+Built with data from:
+- Federal Reserve Economic Data (FRED)
+- St. Louis Federal Reserve
+- Chart.js visualization library
+- Capital Flows Research (inspiration)
+
+---
+
+**Last Updated:** November 14, 2025
+**Version:** 1.0.0
+=======
+# Spartan Trading Agent
+
+> A billion-dollar trading agent powered by Claude AI - modular, scalable, and production-ready.
+
+## 🎯 Vision
+
+Build an AI-first trading system where Claude AI makes intelligent trading decisions across multiple asset classes, with full modularity and production-grade reliability.
+
+## 🚀 Features
+
+- **🧠 Claude AI Core**: Anthropic's most advanced AI at the center of all trading decisions
+- **🔌 Modular Architecture**: Plug and play different data sources, brokers, and strategies
+- **📊 Multi-Asset Support**: Stocks, crypto, forex, futures - all in one system
+- **⚡ Real-time Processing**: Async architecture for millisecond decision-making
+- **🛡️ Risk Management**: Built-in safeguards to protect capital
+- **📈 Backtesting**: Test strategies on years of historical data before risking capital
+- **📱 Monitoring**: Real-time dashboards and alerts
+- **🔒 Production-Ready**: Security, logging, error handling built-in
+
+## 🏗️ Architecture
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design.
+
+```
+Claude AI Engine → Strategy Generation → Risk Check → Execution → Monitoring
+        ↑                                                              ↓
+    Market Data ← Data Ingestion ← Multiple Sources ← News & Sentiment
+```
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/gravity-ven/Spartan_Labs.git
+cd Spartan_Labs
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Copy and configure environment variables
+cp .env.example .env
+# Edit .env with your API keys
+```
+
+## ⚙️ Configuration
+
+Edit `config/config.yaml` to configure:
+- Trading mode (paper/live/backtest)
+- Data sources to enable
+- Brokers to use
+- Risk parameters
+- Strategy settings
+
+## 🎮 Quick Start
+
+### 1. Paper Trading (Recommended First)
+
+```bash
+# Start with paper trading to test without risking real money
+python -m src.main --mode paper
+
+# View the dashboard
+open http://localhost:8000/dashboard
+```
+
+### 2. Backtesting
+
+```bash
+# Test a strategy on historical data
+python -m src.backtest --strategy claude_momentum --start 2023-01-01 --end 2024-01-01
+```
+
+### 3. Live Trading (After thorough testing!)
+
+```bash
+# Go live with real money (use caution!)
+python -m src.main --mode live
+```
+
+## 📚 Documentation
+
+- [Architecture Overview](ARCHITECTURE.md)
+- [Configuration Guide](docs/configuration.md)
+- [Strategy Development](docs/strategies.md)
+- [Adding Data Sources](docs/data_sources.md)
+- [Risk Management](docs/risk_management.md)
+- [API Reference](docs/api_reference.md)
+
+## 🧪 Examples
+
+See the `examples/` directory for:
+- Basic trading strategy
+- Custom data connector
+- Risk management rules
+- Backtesting workflows
+
+## 🔑 Required API Keys
+
+1. **Anthropic API** (Required): Get from https://console.anthropic.com/
+2. **Broker API** (Choose one):
+   - Alpaca (stocks): https://alpaca.markets/
+   - Binance (crypto): https://www.binance.com/
+   - Interactive Brokers: https://www.interactivebrokers.com/
+3. **Data Sources** (Optional):
+   - Alpha Vantage: https://www.alphavantage.co/
+   - Polygon.io: https://polygon.io/
+   - NewsAPI: https://newsapi.org/
+
+## ⚠️ Risk Disclaimer
+
+**IMPORTANT**: Trading involves substantial risk of loss. This software is provided for educational and research purposes.
+
+- Start with paper trading
+- Never risk more than you can afford to lose
+- Past performance does not guarantee future results
+- Test thoroughly before using real capital
+- The authors are not responsible for any financial losses
+
+## 🛠️ Development
+
+```bash
+# Run tests
+pytest tests/
+
+# Run linter
+ruff check src/
+
+# Format code
+black src/
+
+# Type checking
+mypy src/
+```
+
+## 📊 Project Structure
+
+```
+spartan_labs/
+├── src/
+│   ├── core/           # Claude AI engine and core logic
+│   ├── data/           # Data connectors and processing
+│   ├── execution/      # Broker integrations and order execution
+│   ├── risk/           # Risk management system
+│   ├── backtest/       # Backtesting framework
+│   ├── monitoring/     # Dashboards and alerting
+│   ├── strategies/     # Trading strategies
+│   └── utils/          # Utility functions
+├── config/             # Configuration files
+├── tests/              # Unit and integration tests
+├── docs/               # Documentation
+├── examples/           # Example code
+└── data/               # Local data storage (gitignored)
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 📄 License
+
+See [LICENSE](LICENSE) file.
+
+## 🙏 Acknowledgments
+
+- Powered by [Anthropic Claude](https://www.anthropic.com/)
+- Built with Python and modern trading infrastructure
+
+---
+
+**Ready to build the future of AI-powered trading!** 🚀
+>>>>>>> origin/claude/trading-agent-system-01Vo89XzabmcsxpnPZXGtKFY
