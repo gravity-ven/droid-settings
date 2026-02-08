@@ -20,3 +20,21 @@ __pycache__/
 # Ignore system-specific files
 Thumbs.db
 *.bak
+
+# Claude sync - exclude session/debug/temp data
+claude_sync/debug/
+claude_sync/statsig/
+claude_sync/cache/
+claude_sync/file-history/
+claude_sync/projects/
+claude_sync/shell-snapshots/
+claude_sync/paste-cache/
+claude_sync/plugins/
+claude_sync/tasks/
+claude_sync/telemetry/
+claude_sync/memory/
+claude_sync/engram/
+claude_sync/history.jsonl
+claude_sync/state/
+claude_sync/.sync_healthy
+claude_sync/settings.json.backup

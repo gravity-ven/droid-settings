@@ -1,0 +1,34 @@
+{
+  "created": "2026-02-08T00:17:38.548149",
+  "structure": {
+    "hooks/": "Event hooks (UserPromptSubmit, SessionStart, etc.)",
+    "agents/": "Custom agent definitions",
+    "autonomous/": "Autonomous monitoring systems",
+    "docs/": "Consolidated documentation",
+    "features/": "Feature configurations",
+    "knowledge/": "Genius DNA skill registry",
+    "memory/": "Cross-session memory system",
+    "logs/": "System logs",
+    "state/": "Runtime state files",
+    "setup/": "Installation scripts",
+    "plugins/": "Claude Code plugins",
+    "commands/": "Custom commands",
+    "skills/": "Skill definitions",
+    "debug/": "Debug files (auto-cleaned after 30 days)",
+    "projects/": "Project-specific memory",
+    "file-history/": "File change history"
+  },
+  "key_files": {
+    "settings.json": "Main configuration",
+    "CLAUDE.md": "Global instructions",
+    "genius_loader.py": "Genius DNA loader",
+    "autonomous_organizer.py": "This self-organizing system",
+    "autonomous_orchestrator.py": "System orchestrator"
+  },
+  "autonomous_systems": {
+    "autonomous_organizer.py": "Cleans and organizes every 6h",
+    "hooks/autonomous-agent-teams.py": "Auto-detects team needs",
+    "hooks/compaction-manager.py": "Manages context compaction",
+    "autonomous/team_monitor.py": "Monitors agent teams"
+  }
+}
